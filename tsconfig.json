@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "Bundler",
+        "jsx": "react-jsx",
+        "noEmit": true,
+
+        "strict": true,
+        "skipDefaultLibCheck": true,
+        "noImplicitAny": true,
+        "noUncheckedIndexedAccess": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./components/*"],
+            "@contexts/*": ["./contexts/*"],
+            "@hooks/*": ["./hooks/*"],
+            "@reducers/*": ["./reducers/*"],
+            "@pages/*": ["./pages/*"],
+            "@utils/*": ["./utils/*"],
+            "@/*": ["./*"]
+        }
+    }
+}
